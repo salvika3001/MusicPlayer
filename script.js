@@ -5,7 +5,7 @@ $(function () {
   let albumArtworks = new Array();
 
   var settings = {
-    url: "http://3.109.106.139/api",
+    url: "https://3.109.106.139/api",
     method: "GET",
     timeout: 0,
   };
@@ -229,7 +229,7 @@ $(function () {
   //api call and functioning
   function initPlayer() {
     var settings = {
-      url: "http://3.109.106.139/api",
+      url: "https://3.109.106.139/api",
       method: "GET",
       timeout: 0,
     };
